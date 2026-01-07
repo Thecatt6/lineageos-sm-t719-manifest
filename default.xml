@@ -2,7 +2,10 @@
 <manifest>
 
     <!-- Remote ufficiale LineageOS -->
-    <remote name="LineageOS/android" path="." revision="lineage-22.2"  />
+    <remote name="los" fetch="https://github.com/LineageOS/" />
+
+    <!-- Default: branch lineage-22.2 -->
+    <default revision="lineage-22.2" remote="los" sync-j="4" />
 
     <!-- Device tree -->
     <project name="Thecatt6/lineageos-sm-t719-build" path="device/samsung/gts28velte" revision="main" />
