@@ -1,0 +1,1 @@
+# lineageos-sm-t719-manifest
